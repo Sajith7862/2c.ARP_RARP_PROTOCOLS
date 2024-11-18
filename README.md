@@ -1,4 +1,6 @@
-# 2c.SIMULATING ARP /RARP PROTOCOLS
+# EXP : 2c.SIMULATING ARP /RARP PROTOCOLS
+## NAME : MOHAMED HAMEEM SAJITH J
+## REG NO : 212223240090
 ## AIM
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
@@ -19,9 +21,6 @@ P
 ## PROGRAM - ARP
 ### client ARP:
 ```
-NAME: MOHAMED HAMEEM SAJITH J
-REG NO: 212223240090
-
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -38,9 +37,6 @@ while True:
 ### SERVER ARP:
 
 ```
-NAME: MOHAMED HAMEEM SAJITH J
-REG NO: 212223240090
-
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -59,9 +55,6 @@ while True:
 
 ### client RARP:
 ```
-NAME: MOHAMED HAMEEM SAJITH J
-REG NO: 212223240090
-
 import socket
 s=socket.socket()
 s.bind(('localhost',9000))
@@ -78,9 +71,6 @@ while True:
 ### SERVER RARP:
 
 ```
-NAME: MOHAMED HAMEEM SAJITH J
-REG NO: 212223240090
-
 import socket
 s=socket.socket()
 s.connect(('localhost',9000))
@@ -95,6 +85,6 @@ while True:
 
 ![WhatsApp Image 2024-09-28 at 09 23 08_e4f91166](https://github.com/user-attachments/assets/f56d0ab0-7919-4929-aa28-90f5dcff1040)
 
-## RESULT
+## RESULT :
 Thus, the python program for simulating ARP protocols using TCP was successfully 
 executed.
